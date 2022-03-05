@@ -147,3 +147,20 @@ hr{
     border: 2px white solid;
     background: #fff;
 }
+.resp{
+    display: none;
+}
+@media screen and (max-width:440px) {
+div{
+    display: none;
+}
+.resp{
+    display: inline;
+    margin-top: 5em;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+    padding: 5px;
+}
+    
+}
